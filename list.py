@@ -14,4 +14,9 @@ print(newlist)
 
 re_list=[1,1,1,1,2,3,4]
 
-print(re_list.count(1))
+# print(re_list.count(1))
+# re_list.clear()
+# print(re_list)
+for i in re_list:
+    if i!=1:
+        print(i)
